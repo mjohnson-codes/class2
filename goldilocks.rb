@@ -14,11 +14,11 @@ else
 end
 
 if temp_f < 100 && temp_f > 80
-	puts "Goldilocks, this is just right!!"
+	puts "Goldilocks, the temp is just right!!"
 elsif temp_f >= 100
-	puts "Goldilocks, this is too hot!"
+	puts "Goldilocks, the temp is too hot!"
 elsif temp_f < 80
-	puts "Goldilocks, this is too cold!"
+	puts "Goldilocks, the temp is too cold!"
 elsif food != "porridge"
 	puts "Goldilocks, this is not porridge - eewww!!!"
 else
